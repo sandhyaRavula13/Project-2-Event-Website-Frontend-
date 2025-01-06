@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width,intial-scale=1.0">
+        <title>Event Hunt</title>
+        <link rel="stylesheet" href="style.css">  
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">   
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-bars" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li><a href="events.html">EVENTS</a></li>
+                        <li><a href="budget.html">BUDGET</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Budget For Our Customers In 2022</h1>
+        </section>
+    
+        <!------ budget ------>
+
+        <section class="Budget-content">
+
+            <div class="row">
+                <div class="budget-left">
+                    <img src="images/money.png">
+                    <h2>Budget For Our Customers In 2022.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Eaque nesciunt fugit praesentium quo repellendus hic beatae
+                    sint alias, sit excepturi eveniet veniam, consectetur voluptas
+                    placeat vitae magnam at distinctio porro.Lorem ipsum dolor sit 
+                    amet consectetur adipisicing elit.Eaque nesciunt fugit praesentium
+                    quo repellendus hic beatae sint alias, sit excepturi eveniet veniam, 
+                    consectetur volupta placeat vitae magnam at distinctio porro.</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Eaque nesciunt fugit praesentium quo repellendus hic beatae
+                    sint alias, sit excepturi eveniet veniam, consectetur voluptas
+                    placeat vitae magnam at distinctio porro.Lorem ipsum dolor sit 
+                    amet consectetur adipisicing elit.Eaque nesciunt fugit praesentium
+                    quo repellendus hic beatae sint alias, sit excepturi eveniet veniam, 
+                    consectetur volupta placeat vitae magnam at distinctio porro.</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Eaque nesciunt fugit praesentium quo repellendus hic beatae
+                    sint alias, sit excepturi eveniet veniam, consectetur voluptas
+                    placeat vitae magnam at distinctio porro.Lorem ipsum dolor sit 
+                    amet consectetur adipisicing elit.Eaque nesciunt fugit praesentium
+                    quo repellendus hic beatae sint alias, sit excepturi eveniet veniam, 
+                    consectetur volupta placeat vitae magnam at distinctio porro.</p>
+
+                    
+                    <div class="comment-box">
+
+                        <h3>Leave a comment</h3>
+
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Email">
+                            
+                            <textarea rows="5" placeholder="Your Comment"></textarea>
+                            
+                            <button type="Submit" class="hero-btn green-btn">POST COMMENT</button>
+                        
+                        </form>
+                    
+                    </div>
+
+
+
+
+                </div>
+                <div class="budget-right">
+                    <h3>Types Of Events</h3>
+                    <div>
+                        <span>budget calculations</span>
+                        <span>2022</span>
+                    </div>
+                    <div>
+                        <span>budget calculations</span>
+                        <span>2022</span>
+                    </div>
+                    <div>
+                        <span>budget calculations</span>
+                        <span>2022</span>
+                    </div>
+                    <div>
+                        <span>budget calculations</span>
+                        <span>2022</span>
+                    </div>
+                    <div>
+                        <span>budget calculations</span>
+                        <span>2022</span>
+                    </div>
+                    <div>
+                        <span>budget calculations</span>
+                        <span>2022</span>
+                    </div>
+                    <div>
+                        <span>budget calculations</span>
+                        <span>2022</span>
+                    </div>
+                    <div>
+                        <span>budget calculations</span>
+                        <span>2022</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+     <!--- footer --->
+        <section class="footer">
+            <h4>EVENTS</h4>
+            <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente corrupti natus quasi doloremque suscipit, adipisci qui fugit deleniti.<br>Velit minima, exercitationem commodi quas optio rerum delectus maxime dignissimos aliquid ducimus.</P>
+            <div class="icons">
+                <img src="images/facebook.png" width="50px" height="50px"></i>
+                <img src="images/instagram.png" width="50px" height="50px"></i>
+                <img src="images/twitter.png" width="50px" height="50px"></i>
+                <img src="images/whatsapp.png" width="50px" height="50px"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i>Attractive Events</p>
+        </section>
+
+
+        <!-- Javascript -->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0"; 
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px"; 
+            }
+        </script>
+    </body>
+</html>
